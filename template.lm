@@ -349,11 +349,11 @@ Value:
 {{ foo.bar }} == dict['foo']['bar']
 
 {% if foo }}
-hello
+hello viewers
 {% end %}
 ==
 if (dict['foo']) {
-	'hello'
+	'hello viewers'
 }
 
 {% for foo in bar %}
